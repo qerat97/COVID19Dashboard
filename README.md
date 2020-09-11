@@ -33,13 +33,13 @@ This documentation willl help user to Install the application in user windows ma
     - docker run -d -p 8086:8086 --network COVID19DashboardbNetwork --name influxdb influxdb
 
   ## Step 3
-
-  - Run below commnd to download the Python Script image from DockerHub and run as a container
-    - docker run -d -p 3000:3000 --network COVID19DashboardbNetwork --name=pythonimage sunishsurendrank/pythonimage:v1
-
-  ## Step 4
   - Run below commnd to download the Grafana Docker Image from DockerHub and run as a container
     - docker run -d -p 3000:3000 --network COVID19DashboardbNetwork --name=grafana sunishsurendrank/grafanaimage:v1
+
+  ## Step 4
+
+  - Run below commnd to download the Python Script image from DockerHub and run as a container
+    - docker run -d -p 3001:3001 --network COVID19DashboardbNetwork --name=pythonimage sunishsurendrank/pythonimage:v1
 
   ## Step 5
 
